@@ -29,13 +29,13 @@ drop.grid(row=1,column=2,padx=10,pady=10)
 cap= cv2.VideoCapture(0)
 def arrayscolorsUP(text):
     if text=="Red":Upper=np.array([10, 255, 255])
-    elif text =="Blue":Upper=np.array([140, 255, 255])
+    elif text =="Blue":Upper=np.array([130, 255, 255])
     elif text=="Yellow":Upper=np.array([30, 255, 255])
     elif text=="Pink":Upper=np.array([350, 255, 255])
     elif text=="Green": Upper=np.array([80, 255, 255])
     elif text=="Black":Upper=np.array([179, 255, 30])
     elif text=="White":Upper=np.array([179, 18, 255])
-    elif text=="Purple":Upper=np.array([170, 255, 255])
+    elif text=="Purple":Upper=np.array([160, 255, 255])
     return Upper
 def arrayscolorsDOWN(text):
     if text=="Red":Lower=np.array([0, 100, 100])
